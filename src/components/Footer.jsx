@@ -1,4 +1,5 @@
 import { ArrowUp } from "lucide-react";
+import { PortfolioConfig } from "@/lib/const";
 
 export const Footer = () => {
   return (
@@ -6,7 +7,7 @@ export const Footer = () => {
       {" "}
       <p className="text-sm text-muted-foreground">
         {" "}
-        &copy; {new Date().getFullYear()} Pedrotech.co. All rights reserved.
+        &copy; {new Date().getFullYear()} {PortfolioConfig.name}. All rights reserved.
       </p>
       <a
         href="#hero"

@@ -1,4 +1,5 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import { PortfolioConfig } from "@/lib/const";
 
 const projects = [
   {
@@ -100,7 +101,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href={PortfolioConfig.github}
           >
             Check My Github <ArrowRight size={16} />
           </a>

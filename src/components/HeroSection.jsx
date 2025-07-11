@@ -1,4 +1,5 @@
 import { ArrowDown } from "lucide-react";
+import { PortfolioConfig } from "@/lib/const";
 
 export const HeroSection = () => {
   return (
@@ -12,11 +13,11 @@ export const HeroSection = () => {
             <span className="opacity-0 animate-fade-in"> Hi, I'm</span>
             <span className="text-primary opacity-0 animate-fade-in-delay-1">
               {" "}
-              Pedro
+              {PortfolioConfig.name}
             </span>
             <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">
               {" "}
-              Machado
+              Front-end
             </span>
           </h1>
 
